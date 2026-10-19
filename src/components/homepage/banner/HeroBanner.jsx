@@ -6,6 +6,8 @@ import heroImage from '../../../assets/hero-banner.jpg';
 const HeroBanner = () => {
   return (
     <section className="relative w-full max-w-7xl mx-auto my-6 px-4 sm:px-6 lg:px-8">
+      <div className="pointer-events-none absolute -left-24 top-0 h-64 w-64 rounded-full bg-green-100/60 blur-3xl" />
+      <div className="pointer-events-none absolute -right-24 bottom-0 h-72 w-72 rounded-full bg-lime-100/50 blur-3xl" />
       <div className="relative overflow-hidden rounded-3xl bg-slate-950 text-white shadow-2xl min-h-[420px] md:min-h-[500px] flex flex-col md:flex-row items-center justify-between">
         {/* Background Image Container with Gradient Overlay */}
         <div className="absolute inset-0 w-full h-full z-0">

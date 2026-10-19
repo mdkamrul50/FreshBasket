@@ -4,6 +4,7 @@ import './App.css'
 import Navbar from './components/navbar/Navbar'
 
 import HeroBanner from './components/homepage/banner/HeroBanner'
+import BestSellingProducts from './components/homepage/best-selling-products/bestSellingProducts'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,7 +13,8 @@ function App() {
     <>
       <Navbar></Navbar>
       <HeroBanner></HeroBanner>
-      <h2>hello</h2>
+      <BestSellingProducts></BestSellingProducts>
+
     </>
   );
 }
